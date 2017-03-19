@@ -14,6 +14,8 @@ class EnvTest(TestCase):
 
     def test_load_custom_settings(self):
         """
+        加载自定义配置测试
+
         测试修改了配置文件目录（由默认创建的'${BASE_DIR}/coupons'修改为${BASE_DIR}/'configs'）是否可以顺利加载配置
         """
 
