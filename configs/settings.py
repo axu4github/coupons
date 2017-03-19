@@ -50,7 +50,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'coupons.urls'
+ROOT_URLCONF = 'configs.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'coupons.wsgi.application'
+WSGI_APPLICATION = 'configs.wsgi.application'
 
 
 # Database
